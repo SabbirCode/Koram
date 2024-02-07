@@ -8,5 +8,5 @@ else if(linktext.trim()==''){linkfound=false;}
 if(el.offsetHeight!=undefined&&el.offsetHeight<8){linkfound=false;}
 break;}}
 if(linkfound){linkToHide=el;linkToHide.innerHTML='';}
-if(linkfound==false){var div=document.createElement('div');div.id='error_4ca663b77fa9116167686513e36f3804502bbc36';div.innerHTML='<a href="https://www.freevisitorcounters.com/en/home/countercode/hashid/?id=4ca663b77fa9116167686513e36f3804502bbc36">Counter Error: Do not change the code. Click here to show the correct code!</a>';if(document.getElementById('counterimg')!=null){document.getElementById('counterimg').parentNode.insertBefore(div,document.getElementById('counterimg').nextSibling);}else{document.body.appendChild(div);}
+if(linkfound==false){var div=document.createElement('div');div.id='error_4ca663b77fa9116167686513e36f3804502bbc36';div.innerHTML='koram';if(document.getElementById('counterimg')!=null){document.getElementById('counterimg').parentNode.insertBefore(div,document.getElementById('counterimg').nextSibling);}else{document.body.appendChild(div);}
 widget=document.getElementById('counterimg');if(widget){widget.style.visibility='hidden';}}}
